@@ -139,4 +139,4 @@ if __name__ == '__main__':
     #1、根据默认运行规则，调整py文件命名，函数名
     #2、pytest.main()运行，或者命令行直接pytest运行
     if __name__ == '__main__':
-        pytest.main(["-s","Test_Mail.py"])
+        pytest.main(["-s","TMail.py"])

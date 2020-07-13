@@ -1,6 +1,11 @@
+import json
+from common.Base import init_db
 from utils.RequestsUtil import requests_get
 from utils.RequestsUtil import requests_post
-
+from utils.RequestsUtil import CRequest
+from config.Conf import ConfigYaml
+import pytest
+from utils.AssertUtil import AssertUtil
 
 """
 登录	登录成功	http://meiduo.boxuegu.cn/authorizations/
@@ -10,16 +15,43 @@ from utils.RequestsUtil import requests_post
 #1、导入包
 import requests
 #2、定义登录方法
-def login():
+def test_login():
 #3、定义测试数据
-    url="http://211.103.136.242:8064/authorizations/"
+    conf_y = ConfigYaml()
+    url_path = conf_y.get_conf_url()
+    url = url_path+"/authorizations/"
+    #url="http://211.103.136.242:8064/authorizations/"
     data={"username":"python","password":"12345678"}
 #4、发送POST请求
     #r=requests.post(url,json=data)
-    r=requests_post(url,json=data)
+    #r=requests_post(url,json=data)
+    req = CRequest()
+    r = req.post(url,json=data)
 #5、输出结果
     #print(r.json())
     print(r)
+    #验证
+    #返回状态码
+    code = r["code"]
+    #assert code == 200
+    AssertUtil().assert_code(code,200)
+#返回结果内容
+    #body = json.dumps(r["body"])
+    body = r["body"]
+    #assert '"user_id": 1, "username": "python"' in body
+    AssertUtil().assert_in_body(body,'"username": "python", "user_id": 1')
+
+    #1、初始化数据库对象
+    conn = init_db("db_1")
+    #2、查询结果
+    res_db = conn.fetchone("select id,username from tb_users where username='python'")
+    print("数据库查询结果",res_db)
+    #3、验证
+    user_id = body["user_id"]
+    assert user_id == res_db["id"]
+    #2、查询数据信息
+    #3、验证
+
 
 """
 个人信息	获取个人信息正确	http://211.103.136.242:8064/user/	登录	get	
@@ -27,7 +59,7 @@ def login():
            'Authorization': 'JWT ' + this.token
  }
 """
-def info():
+def testinfo():
     #1、参数
     url="http://211.103.136.242:8064/user/"
     token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTM3MDIyMTAsInVzZXJuYW1lIjoicHl0aG9uIiwiZW1haWwiOiI5NTI2NzM2MzhAcXEuY29tIiwidXNlcl9pZCI6MX0.ru_DABMxzjywE_HynLA6a9XGLcQQy6KNyIP-5xQ-S_g'}"
@@ -36,7 +68,10 @@ def info():
     }
     #2、get请求
     #r=requests.get(url,headers=headers)
-    r=requests_get(url,headers=headers)
+    #r=requests_get(url,headers=headers)
+    #from utils.RequestsUtil import CRequest
+    req = CRequest()
+    r = req.get(url,headers=headers)
     #输出
     #print(r.json())
     print(r)
@@ -95,8 +130,13 @@ def order():
 
 
 if __name__ == '__main__':
-     login()
+    # login()
     # info()
     # goods_list()
     # cart()
     # order()
+
+    #1、根据默认运行规则，调整py文件命名，函数名
+    #2、pytest.main()运行，或者命令行直接pytest运行
+    if __name__ == '__main__':
+        pytest.main(["-s","Test_Mail.py"])

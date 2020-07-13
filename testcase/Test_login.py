@@ -15,7 +15,7 @@ print(data_list)
 #2、参数化执行测试用例
 
 @pytest.mark.parametrize("login",data_list)
-def test_yaml(login):
+def Test_yaml(login):
     #初始化url,data
     url = ConfigYaml().get_conf_url()+login["url"]
     print("url %s"%url)

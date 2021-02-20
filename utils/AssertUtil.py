@@ -14,12 +14,12 @@ class AssertUtil:
         :param expected_code:
         :return:
         """
-        try:
-            assert int(code) == int(expected_code)
-            return True
-        except:
-            self.log.error("code error,code is %s,expected_code is %s"%(code,expected_code))
-            raise
+        # try:
+        assert int(code) == int(expected_code)
+        #     return True
+        # except:
+        #     self.log.error("code error,code is %s,expected_code is %s"%(code,expected_code))
+        #     raise
 
 #4、body相等
     def assert_body(self, body, expected_body):
@@ -29,12 +29,12 @@ class AssertUtil:
         :param expected_body:
         :return:
         """
-        try:
-            assert body == expected_body
-            return True
-        except:
-            self.log.error("body error,body is %s,expected_body is %s" % (body, expected_body))
-            raise
+        # try:
+        assert body == expected_body
+        #     return True
+        # except:
+        #     self.log.error("body error,body is %s,expected_body is %s" % (body, expected_body))
+        #     raise
 
 #5、body包含
     def assert_in_body(self,body,expected_body):
@@ -44,10 +44,10 @@ class AssertUtil:
         :param expected_body:
         :return:
         """
-        try:
-            body = json.dumps(body)
-            assert expected_body in body
-            return True
-        except:
-            self.log.error("body error,body is %s,expected_body is %s" % (body, expected_body))
-            raise
+        # try:
+        body = json.dumps(body,ensure_ascii=False)
+        assert expected_body in body
+        #     return True
+        # except:
+        #     self.log.error("body error,body is %s,expected_body is %s" % (body, expected_body))
+        #     raise

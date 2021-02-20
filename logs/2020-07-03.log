@@ -1,0 +1,11 @@
+2020-07-03 00:18:50,840 Requests DEBUG 发送post请求 
+2020-07-03 00:19:32,793 C:/Users/Administrator/PycharmProjects/InterAutoTest/utils/LogUtil.py DEBUG this is a debug 
+2020-07-03 23:25:27,414 Requests DEBUG 发送post请求 
+2020-07-03 23:25:28,273 Requests DEBUG 发送get请求 
+2020-07-03 23:27:46,356 Requests DEBUG 发送post请求 
+2020-07-03 23:27:47,074 Requests DEBUG 发送get请求 
+2020-07-03 23:32:22,641 Requests DEBUG 发送post请求 
+2020-07-03 23:32:24,313 Requests DEBUG 发送get请求 
+2020-07-03 23:45:38,383 Requests DEBUG 发送post请求 
+2020-07-03 23:45:39,555 Requests DEBUG 发送get请求 
+2020-07-03 23:46:06,981 Requests DEBUG 发送post请求 

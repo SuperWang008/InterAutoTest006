@@ -1,6 +1,8 @@
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import smtplib
+from config.Conf import ConfigYaml
+
 
 #数据初始化
 #smtp地址，用户名，密码，接收邮件者，邮件标题，邮件内容，邮件附件
@@ -42,7 +44,7 @@ class SendEmail:
 if __name__ == "__main__":
     #初始化类(self,smtp_addr,username,password,recv,
             #     title,content=None,file=None):
-    from config.Conf import ConfigYaml
+    # from config.Conf import ConfigYaml
     email_info = ConfigYaml().get_email_info()
     smtp_addr = email_info["smtpserver"]
     username = email_info["username"]

@@ -8,7 +8,9 @@ from utils.LogUtil import my_log
 from utils.MysqlUtil import Mysql
 from utils.EmailUtil import SendEmail
 
+
 #Base为提供公共方法类
+# p_data = '\$\{(.*?)\}'
 p_data = '\${(.*)}\$'
 log = my_log()
 
@@ -58,6 +60,7 @@ def json_parse(data):
     #     header = headers
     # 列表推导的方法如果存在data转换json
     return json.loads(data) if data else data
+    # return json.dumps(data) if data else data
 
 def res_find(data,pattern_data=p_data):
     """

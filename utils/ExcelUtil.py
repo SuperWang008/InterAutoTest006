@@ -1,5 +1,6 @@
 import os
 import xlrd
+from xlutils.copy import copy
 
 #目的：参数化，pytest list
 #自定义异常
@@ -35,10 +36,37 @@ class ExcelReader:
                 #1 循环，过滤首行，从1开始
             for col in range(1,sheet.nrows):
                 col_value = sheet.row_values(col)
-                #2 与首行组成字典，放在list
-                self._data.append(dict(zip(title, col_value)))
+                a = dict(zip(title, col_value))
+                a["sheet_name"] = self.sheet_by
+                print(a)
+                # 2 与首组成字典，放list
+                # self._data.append(dict(zip(title, col_value)))
+                self._data.append(a)
 #4、结果返回
         return self._data
+
+# 写入数据
+    def write_value(self,excel_file,sheet_by,row, col, value):
+            '''
+            写入到excel数据
+            row,col,value
+            '''
+            read_data = xlrd.open_workbook(excel_file,formatting_info = True)
+            write_data = copy(read_data)
+            sheet_data = write_data.get_sheet(sheet_by)
+            sheet_data.write(row, col, value)
+            # write_data.save(self.excel_file)
+            write_data.save('../data/testdata_res.xls')
+
+    def copy_excel(self):
+            '''
+            写入到excel数据
+            row,col,value
+            '''
+            read_data = xlrd.open_workbook(self.excel_file,formatting_info = True)
+            write_data = copy(read_data)
+            # write_data.save('../data/testdata_res.xls')
+            write_data.save(r'C:\Users\wangchao\Desktop\InterAutoTest\data\testdata_res.xls')
 
 head = ["a","b"]
 value1 = ["a1","b1"]

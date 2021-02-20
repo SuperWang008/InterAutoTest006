@@ -1,0 +1,51 @@
+[ {
+  "uid" : "9829fb2fee527512",
+  "name" : "collectionInfo_4收藏信息管理",
+  "time" : {
+    "start" : 1613789671279,
+    "stop" : 1613789671769,
+    "duration" : 490
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e8c3ae0e3f982fd",
+  "name" : "collectionInfo_2收藏信息管理",
+  "time" : {
+    "start" : 1613789670081,
+    "stop" : 1613789670843,
+    "duration" : 762
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b75094562f6df3e",
+  "name" : "login_4登录",
+  "time" : {
+    "start" : 1613789669422,
+    "stop" : 1613789669727,
+    "duration" : 305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7a09fe1b5262ce6",
+  "name" : "collectionInfo_1收藏信息管理",
+  "time" : {
+    "start" : 1613789669732,
+    "stop" : 1613789670075,
+    "duration" : 343
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5cacc10dd28b0fb",
+  "name" : "collectionInfo_3收藏信息管理",
+  "time" : {
+    "start" : 1613789670858,
+    "stop" : 1613789671267,
+    "duration" : 409
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -19,6 +19,8 @@ _db_config_file =  _config_path + os.sep +"db_conf.yml"
 _log_path = BASE_DIR + os.sep + "logs"
 #定义report目录的路径
 _report_path = BASE_DIR + os.sep + "report"
+#
+test_config_file = _config_path + os.sep +"test_config"
 
 def get_report_path():
     """
@@ -61,6 +63,13 @@ class ConfigYaml:
         :return:
         """
         return self.config["BASE"]["test"]["case_file"]
+
+    def get_result_file(self):
+        """
+        获取测试用例excel名称
+        :return:
+        """
+        return self.config["BASE"]["test"]["result_file"]
 
     def get_excel_sheet(self):
         """
@@ -114,3 +123,4 @@ if __name__ == "__main__":
     # print(conf_read.get_excel_file())
     # print(conf_read.get_excel_sheet())
     print(conf_read.get_email_info())
+    print(conf_read.get_result_file())

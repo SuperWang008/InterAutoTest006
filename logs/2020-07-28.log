@@ -1,0 +1,24 @@
+2020-07-28 21:35:12,416 AssertUtil ERROR body error,body is "{'password': ['该字段是必填项。'], 'username': ['该字段是必填项。']}",expected_body is 无效数据。期待为字典类型 
+2020-07-28 21:46:42,681 AssertUtil ERROR body error,body is "{'user_id': 1, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJ1c2VybmFtZSI6InB5dGhvbiIsImV4cCI6MTU5NjAyOTg1NH0.GABFsmYsO78ItcKsEu1xH8IxodwWq-ZwG9WXI_IQVkk', 'username': 'python'}",expected_body is username': 'python', 'user_id': 1 
+2020-07-28 22:02:11,016 AssertUtil ERROR body error,body is "{'user_id': 1, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJ1c2VybmFtZSI6InB5dGhvbiIsImV4cCI6MTU5NjAzMDc4Mn0.nqKSODfDuVqtZ9MtIiBE525WAeKhmZaaYIUoD6Azh0o', 'username': 'python'}",expected_body is username': 'python', 'user_id': 1 
+2020-07-28 22:02:12,474 AssertUtil ERROR body error,body is "{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com', 'email_active': True}",expected_body is id': 1, 'username': 'python', 'mobile': '17701397029', 
+'email': '952673638@qq.com' 
+2020-07-28 22:02:14,513 AssertUtil ERROR code error,code is 507,expected_code is 201 
+2020-07-28 22:08:07,078 AssertUtil ERROR body error,body is "{'user_id': 1, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJ1c2VybmFtZSI6InB5dGhvbiIsImV4cCI6MTU5NjAzMTEzOH0.OJymHjMEHQF_km4usghI8K-gZQqzXr0FL6EX3zxnsvA', 'username': 'python'}",expected_body is user_id': 1,'username': 'python' 
+2020-07-28 22:08:09,004 AssertUtil ERROR body error,body is "{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com', 'email_active': True}",expected_body is id': 1, 'username': 'python', 'mobile': '17701397029', 
+'email': '952673638@qq.com' 
+2020-07-28 22:08:11,773 AssertUtil ERROR code error,code is 507,expected_code is 201 
+2020-07-28 22:09:42,821 AssertUtil ERROR body error,body is "{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com', 'email_active': True}",expected_body is id': 1, 'username': 'python', 'mobile': '17701397029', 
+'email': '952673638@qq.com' 
+2020-07-28 22:09:45,223 AssertUtil ERROR code error,code is 507,expected_code is 201 
+2020-07-28 22:42:09,296 AssertUtil ERROR body error,body is "{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com', 'email_active': True}",expected_body is id': 1, 'username': 'python', 'mobile': '17701397029', 
+'email': '952673638@qq.com' 
+2020-07-28 22:42:11,545 AssertUtil ERROR code error,code is 507,expected_code is 201 
+2020-07-28 23:10:33,941 AssertUtil ERROR code error,code is 507,expected_code is 201 
+2020-07-28 23:16:24,146 AssertUtil ERROR code error,code is 507,expected_code is 201 
+2020-07-28 23:19:18,430 AssertUtil ERROR code error,code is 507,expected_code is 201 
+2020-07-28 23:23:00,710 AssertUtil ERROR code error,code is 507,expected_code is 201 
+2020-07-28 23:28:07,830 AssertUtil ERROR code error,code is 507,expected_code is 201 
+2020-07-28 23:29:25,002 AssertUtil ERROR code error,code is 507,expected_code is 201 
+2020-07-28 23:38:02,323 AssertUtil ERROR body error,body is "{'user_id': 1, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJ1c2VybmFtZSI6InB5dGhvbiIsImV4cCI6MTU5NjAzNjUzMn0.hP48i9rKSPD0PcfbMMHWwF8XNMMVzjUsf6L_-hku0kk', 'username': 'python'}",expected_body is username': 'python1' 
+2020-07-28 23:38:55,099 AssertUtil ERROR body error,body is "{'user_id': 1, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJ1c2VybmFtZSI6InB5dGhvbiIsImV4cCI6MTU5NjAzNjU4NH0.LPkU-A4TFxNO9TRqF1i_EeOeAqkL6R2mwVQGBvkgBT8', 'username': 'python'}",expected_body is username': 'python1' 

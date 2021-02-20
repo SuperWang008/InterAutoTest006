@@ -1,0 +1,31 @@
+2020-07-05 21:30:54,424 Requests DEBUG 发送post请求 
+2020-07-05 21:30:55,846 AssertUtil ERROR body error,body is {"username": "python", "user_id": 1, "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTQwNDE3NTQsInVzZXJuYW1lIjoicHl0aG9uIiwiZW1haWwiOiI5NTI2NzM2MzhAcXEuY29tIiwidXNlcl9pZCI6MX0.R4PDhtaCY6T5H_ED7F4CnNEEj705DzViR5cwDv8Gbbw"},expected_body is "user_id": 1, "username": "python" 
+2020-07-05 21:34:01,487 Requests DEBUG 发送post请求 
+2020-07-05 21:34:02,877 AssertUtil ERROR body error,body is {"username": "python", "user_id": 1, "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTQwNDE5NDEsInVzZXJuYW1lIjoicHl0aG9uIiwiZW1haWwiOiI5NTI2NzM2MzhAcXEuY29tIiwidXNlcl9pZCI6MX0.FNa7VOxX2NxGo2LU9Zi4UJV5FhL6uJlPGAMY3AZJxrA"},expected_body is "user_id": 1, "username": "python" 
+2020-07-05 21:36:56,096 Requests DEBUG 发送post请求 
+2020-07-05 21:36:57,315 AssertUtil ERROR body error,body is {"username": "python", "user_id": 1, "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTQwNDIxMTYsInVzZXJuYW1lIjoicHl0aG9uIiwiZW1haWwiOiI5NTI2NzM2MzhAcXEuY29tIiwidXNlcl9pZCI6MX0.M1DnmTpyeVj2M7O-9RniCb8QCTtvv7JKYYfNS3kauJc"},expected_body is "user_id": 1, "username": "python" 
+2020-07-05 21:42:05,217 Requests DEBUG 发送post请求 
+2020-07-05 21:42:06,670 AssertUtil ERROR body error,body is {"username": "python", "user_id": 1, "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTQwNDI0MjUsInVzZXJuYW1lIjoicHl0aG9uIiwiZW1haWwiOiI5NTI2NzM2MzhAcXEuY29tIiwidXNlcl9pZCI6MX0.1SREHJHWa6_Sv6WE6UbOin0EXHQ_NbSKOD6zq4stUEk"},expected_body is "user_id": 1, "username": "python" 
+2020-07-05 21:43:46,983 Requests DEBUG 发送post请求 
+2020-07-05 21:45:54,905 Requests DEBUG 发送post请求 
+2020-07-05 21:45:56,670 AssertUtil ERROR body error,body is {"username": "python", "user_id": 1, "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTQwNDI2NTUsInVzZXJuYW1lIjoicHl0aG9uIiwiZW1haWwiOiI5NTI2NzM2MzhAcXEuY29tIiwidXNlcl9pZCI6MX0.KIC0aLNpUUS9Nn-9ZWqeCKV7ShnKazgaVOXrNaqXF_4"},expected_body is 'username': 'python', 'user_id': 1' 
+2020-07-05 21:46:57,420 Requests DEBUG 发送post请求 
+2020-07-05 21:46:58,170 AssertUtil ERROR body error,body is {"username": "python", "user_id": 1, "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTQwNDI3MTYsInVzZXJuYW1lIjoicHl0aG9uIiwiZW1haWwiOiI5NTI2NzM2MzhAcXEuY29tIiwidXNlcl9pZCI6MX0.B5XxGl0X7-NnzmSElWx5Xydt45Uq9gcF8Kw7opOeM24"},expected_body is 'username': 'python', 'user_id': 1 
+2020-07-05 21:48:03,108 Requests DEBUG 发送post请求 
+2020-07-05 21:49:57,467 Requests DEBUG 发送post请求 
+2020-07-05 21:50:23,030 Requests DEBUG 发送post请求 
+2020-07-05 21:51:12,498 Requests DEBUG 发送post请求 
+2020-07-05 21:53:09,155 Requests DEBUG 发送post请求 
+2020-07-05 21:53:10,123 AssertUtil ERROR body error,body is {"username": "python", "user_id": 1, "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTQwNDMwODgsInVzZXJuYW1lIjoicHl0aG9uIiwiZW1haWwiOiI5NTI2NzM2MzhAcXEuY29tIiwidXNlcl9pZCI6MX0.21cKaTd_Kz0AYh7u_d4Gyltwhc7fS8IQ2MJ5Vz76Fn0"},expected_body is "user_id": 1, "username": "python" 
+2020-07-05 21:54:09,311 Requests DEBUG 发送post请求 
+2020-07-05 21:54:52,358 Requests DEBUG 发送post请求 
+2020-07-05 21:56:53,280 Requests DEBUG 发送post请求 
+2020-07-05 21:56:55,123 AssertUtil ERROR body error,body is {"username": "python", "user_id": 1, "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTQwNDMzMTMsInVzZXJuYW1lIjoicHl0aG9uIiwiZW1haWwiOiI5NTI2NzM2MzhAcXEuY29tIiwidXNlcl9pZCI6MX0.1CKpXAEFJDtY0KL3r3Koz7Rvou87m63FUT2R4T7wTnk"},expected_body is "user_id": 1, "username": "python" 
+2020-07-05 21:59:30,873 Requests DEBUG 发送post请求 
+2020-07-05 22:01:10,801 Requests DEBUG 发送post请求 
+2020-07-05 22:02:24,410 Requests DEBUG 发送post请求 
+2020-07-05 22:02:39,957 Requests DEBUG 发送post请求 
+2020-07-05 22:02:41,426 AssertUtil ERROR code error,code is 200,expected_code is 201 
+2020-07-05 22:36:47,504 Requests DEBUG 发送post请求 
+2020-07-05 22:52:10,707 Requests DEBUG 发送post请求 
+2020-07-05 22:52:11,957 Requests DEBUG 发送post请求 

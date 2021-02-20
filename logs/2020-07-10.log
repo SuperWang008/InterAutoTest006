@@ -1,0 +1,15 @@
+2020-07-10 21:26:45,652 Requests DEBUG 发送post请求 
+2020-07-10 21:26:46,324 Requests DEBUG 发送get请求 
+2020-07-10 21:27:06,637 C:\Users\Administrator\PycharmProjects\InterAutoTest\utils\LogUtil.py DEBUG 数据库查询结果：{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'} 
+2020-07-10 22:14:39,897 Requests DEBUG 发送post请求 
+2020-07-10 22:14:40,990 Requests DEBUG 发送get请求 
+2020-07-10 22:14:41,396 C:\Users\Administrator\PycharmProjects\InterAutoTest\utils\LogUtil.py DEBUG 数据库查询结果：{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'} 
+2020-07-10 22:14:41,412 C:\Users\Administrator\PycharmProjects\InterAutoTest\utils\LogUtil.py INFO 报告地址 
+2020-07-10 22:25:15,358 Requests DEBUG 发送post请求 
+2020-07-10 22:25:16,796 Requests DEBUG 发送get请求 
+2020-07-10 22:25:17,061 C:\Users\Administrator\PycharmProjects\InterAutoTest\utils\LogUtil.py DEBUG 数据库查询结果：{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'} 
+2020-07-10 22:25:17,077 C:\Users\Administrator\PycharmProjects\InterAutoTest\utils\LogUtil.py INFO 报告地址 
+2020-07-10 23:29:21,851 Requests DEBUG 发送post请求 
+2020-07-10 23:29:22,986 Requests DEBUG 发送get请求 
+2020-07-10 23:29:23,561 C:\Users\Administrator\PycharmProjects\InterAutoTest\utils\LogUtil.py DEBUG 数据库查询结果：{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'} 
+2020-07-10 23:29:23,577 C:\Users\Administrator\PycharmProjects\InterAutoTest\utils\LogUtil.py INFO 报告地址 

@@ -1,0 +1,86 @@
+2020-07-14 22:16:07,125 Requests DEBUG 发送post请求 
+2020-07-14 22:16:07,373 AssertUtil ERROR body error,body is "{'non_field_errors': ['\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002']}",expected_body is 无效数据。期待为字典类型 
+2020-07-14 22:16:07,924 Requests DEBUG 发送post请求 
+2020-07-14 22:16:08,071 AssertUtil ERROR body error,body is "{'username': ['\u8be5\u5b57\u6bb5\u4e0d\u80fd\u4e3a\u7a7a\u3002']}",expected_body is username': ['该字段不能为空。'] 
+2020-07-14 22:16:08,109 Requests DEBUG 发送post请求 
+2020-07-14 22:16:08,256 AssertUtil ERROR body error,body is "{'username': ['\u8be5\u5b57\u6bb5\u4e0d\u80fd\u4e3a\u7a7a\u3002'], 'password': ['\u8be5\u5b57\u6bb5\u4e0d\u80fd\u4e3a\u7a7a\u3002']}",expected_body is password': ['该字段不能为空。'] 
+2020-07-14 22:16:08,303 Requests DEBUG 发送post请求 
+2020-07-14 22:16:09,484 AssertUtil ERROR body error,body is "{'username': 'python', 'user_id': 1, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTQ4MjIwNDcsInVzZXJuYW1lIjoicHl0aG9uIiwiZW1haWwiOiI5NTI2NzM2MzhAcXEuY29tIiwidXNlcl9pZCI6MX0.wOlIpA85VCj8dMMy2lu-N9zqDt0K693kHZzYW6pxeCY'}",expected_body is user_id': 1, 'username': 'python' 
+2020-07-14 22:16:09,553 Requests DEBUG 发送post请求 
+2020-07-14 22:16:10,918 AssertUtil ERROR body error,body is "{'non_field_errors': ['\u65e0\u6cd5\u4f7f\u7528\u63d0\u4f9b\u7684\u8ba4\u8bc1\u4fe1\u606f\u767b\u5f55\u3002']}",expected_body is 无法使用提供的认证信息登录 
+2020-07-14 22:16:10,950 Requests DEBUG 发送get请求 
+2020-07-14 22:16:11,034 AssertUtil ERROR body error,body is "{'detail': '\u8eab\u4efd\u8ba4\u8bc1\u4fe1\u606f\u672a\u63d0\u4f9b\u3002'}",expected_body is 身份认证信息未提供 
+2020-07-14 22:16:11,081 Requests DEBUG 发送post请求 
+2020-07-14 22:16:12,407 Requests DEBUG 发送get请求 
+2020-07-14 22:16:32,907 C:\Users\Administrator\PycharmProjects\InterAutoTest\utils\LogUtil.py DEBUG 数据库查询结果：{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'} 
+2020-07-14 22:16:32,922 Requests DEBUG 发送get请求 
+2020-07-14 22:16:33,493 Requests DEBUG 发送post请求 
+2020-07-14 22:16:34,442 Requests DEBUG 发送post请求 
+2020-07-14 22:16:34,994 Requests DEBUG 发送post请求 
+2020-07-14 22:16:35,649 Requests DEBUG 发送post请求 
+2020-07-14 22:53:20,581 Requests DEBUG 发送post请求 
+2020-07-14 22:53:20,947 AssertUtil ERROR body error,body is "{'non_field_errors': ['\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002']}",expected_body is 无效数据。期待为字典类型 
+2020-07-14 22:53:21,492 Requests DEBUG 发送post请求 
+2020-07-14 22:53:21,615 AssertUtil ERROR body error,body is "{'username': ['\u8be5\u5b57\u6bb5\u4e0d\u80fd\u4e3a\u7a7a\u3002']}",expected_body is username': ['该字段不能为空。'] 
+2020-07-14 22:53:21,659 Requests DEBUG 发送post请求 
+2020-07-14 22:53:21,749 AssertUtil ERROR body error,body is "{'username': ['\u8be5\u5b57\u6bb5\u4e0d\u80fd\u4e3a\u7a7a\u3002'], 'password': ['\u8be5\u5b57\u6bb5\u4e0d\u80fd\u4e3a\u7a7a\u3002']}",expected_body is password': ['该字段不能为空。'] 
+2020-07-14 22:53:21,826 Requests DEBUG 发送post请求 
+2020-07-14 22:53:22,926 AssertUtil ERROR body error,body is "{'username': 'python', 'user_id': 1, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTQ4MjQyODAsInVzZXJuYW1lIjoicHl0aG9uIiwiZW1haWwiOiI5NTI2NzM2MzhAcXEuY29tIiwidXNlcl9pZCI6MX0.Xuxkt5Eg8YF2jUlrBt2IYxC1WJ_Q41rS5gAGxyLbjbA'}",expected_body is user_id': 1, 'username': 'python' 
+2020-07-14 22:53:22,958 Requests DEBUG 发送post请求 
+2020-07-14 22:53:23,945 AssertUtil ERROR body error,body is "{'non_field_errors': ['\u65e0\u6cd5\u4f7f\u7528\u63d0\u4f9b\u7684\u8ba4\u8bc1\u4fe1\u606f\u767b\u5f55\u3002']}",expected_body is 无法使用提供的认证信息登录 
+2020-07-14 22:53:23,976 Requests DEBUG 发送get请求 
+2020-07-14 22:53:24,061 AssertUtil ERROR body error,body is "{'detail': '\u8eab\u4efd\u8ba4\u8bc1\u4fe1\u606f\u672a\u63d0\u4f9b\u3002'}",expected_body is 身份认证信息未提供 
+2020-07-14 22:53:24,114 Requests DEBUG 发送post请求 
+2020-07-14 22:53:25,167 Requests DEBUG 发送get请求 
+2020-07-14 22:53:25,572 C:\Users\Administrator\PycharmProjects\InterAutoTest\utils\LogUtil.py DEBUG 数据库查询结果：{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'} 
+2020-07-14 22:53:25,596 Requests DEBUG 发送get请求 
+2020-07-14 22:53:25,784 Requests DEBUG 发送post请求 
+2020-07-14 22:53:26,814 Requests DEBUG 发送post请求 
+2020-07-14 22:53:27,320 Requests DEBUG 发送post请求 
+2020-07-14 22:53:28,854 Requests DEBUG 发送post请求 
+2020-07-14 22:58:31,801 Requests DEBUG 发送post请求 
+2020-07-14 22:58:32,081 AssertUtil ERROR body error,body is "{'non_field_errors': ['\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002']}",expected_body is 无效数据。期待为字典类型 
+2020-07-14 23:03:06,640 Requests DEBUG 发送post请求 
+2020-07-14 23:03:06,940 AssertUtil ERROR body error,body is "{'non_field_errors': ['\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002']}",expected_body is 无效数据。期待为字典类型 
+2020-07-14 23:05:18,146 Requests DEBUG 发送post请求 
+2020-07-14 23:05:18,266 AssertUtil ERROR body error,body is "{'non_field_errors': ['\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002']}",expected_body is 无效数据。期待为字典类型 
+2020-07-14 23:12:46,480 Requests DEBUG 发送post请求 
+2020-07-14 23:23:20,411 Requests DEBUG 发送post请求 
+2020-07-14 23:24:26,480 Requests DEBUG 发送post请求 
+2020-07-14 23:24:26,639 Requests DEBUG 发送post请求 
+2020-07-14 23:25:04,445 Requests DEBUG 发送post请求 
+2020-07-14 23:25:04,640 Requests DEBUG 发送post请求 
+2020-07-14 23:25:04,752 Requests DEBUG 发送post请求 
+2020-07-14 23:25:54,566 Requests DEBUG 发送post请求 
+2020-07-14 23:25:54,838 Requests DEBUG 发送post请求 
+2020-07-14 23:25:54,928 Requests DEBUG 发送post请求 
+2020-07-14 23:25:55,021 Requests DEBUG 发送post请求 
+2020-07-14 23:25:56,776 AssertUtil ERROR body error,body is "{'username': 'python', 'user_id': 1, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTQ4MjYyMzMsInVzZXJuYW1lIjoicHl0aG9uIiwiZW1haWwiOiI5NTI2NzM2MzhAcXEuY29tIiwidXNlcl9pZCI6MX0.SSF9N_bynQUke6iNUrAPU2Ep1apoEOKU1DMtP9E9YMU'}",expected_body is user_id': 1, 'username': 'python' 
+2020-07-14 23:29:48,591 Requests DEBUG 发送post请求 
+2020-07-14 23:29:49,041 Requests DEBUG 发送post请求 
+2020-07-14 23:29:49,178 Requests DEBUG 发送post请求 
+2020-07-14 23:29:49,263 Requests DEBUG 发送post请求 
+2020-07-14 23:29:50,782 AssertUtil ERROR body error,body is "{'username': 'python', 'user_id': 1, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTQ4MjY0NjcsInVzZXJuYW1lIjoicHl0aG9uIiwiZW1haWwiOiI5NTI2NzM2MzhAcXEuY29tIiwidXNlcl9pZCI6MX0.FnsbJhZkDJiMGeX8PzFk7LQgNC7BnsKECvRialC6M_I'}",expected_body is username': 'python','user_id': 1 
+2020-07-14 23:31:19,809 Requests DEBUG 发送post请求 
+2020-07-14 23:31:20,007 Requests DEBUG 发送post请求 
+2020-07-14 23:31:20,151 Requests DEBUG 发送post请求 
+2020-07-14 23:31:20,257 Requests DEBUG 发送post请求 
+2020-07-14 23:32:21,514 Requests DEBUG 发送post请求 
+2020-07-14 23:32:21,633 Requests DEBUG 发送post请求 
+2020-07-14 23:32:21,748 Requests DEBUG 发送post请求 
+2020-07-14 23:32:21,837 Requests DEBUG 发送post请求 
+2020-07-14 23:32:22,992 Requests DEBUG 发送post请求 
+2020-07-14 23:33:03,466 Requests DEBUG 发送post请求 
+2020-07-14 23:33:03,595 Requests DEBUG 发送post请求 
+2020-07-14 23:33:03,692 Requests DEBUG 发送post请求 
+2020-07-14 23:33:03,792 Requests DEBUG 发送post请求 
+2020-07-14 23:33:05,482 Requests DEBUG 发送post请求 
+2020-07-14 23:33:06,984 Requests DEBUG 发送get请求 
+2020-07-14 23:33:07,074 Requests DEBUG 发送post请求 
+2020-07-14 23:33:07,655 Requests DEBUG 发送get请求 
+2020-07-14 23:33:08,231 C:\Users\Administrator\PycharmProjects\InterAutoTest\utils\LogUtil.py DEBUG 数据库查询结果：{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'} 
+2020-07-14 23:33:08,254 Requests DEBUG 发送get请求 
+2020-07-14 23:33:08,836 Requests DEBUG 发送post请求 
+2020-07-14 23:33:09,843 Requests DEBUG 发送post请求 
+2020-07-14 23:33:10,173 Requests DEBUG 发送post请求 
+2020-07-14 23:33:11,450 Requests DEBUG 发送post请求 

@@ -6,8 +6,11 @@ BASE:
  #扩展名
  log_extension: ".log"
  test:
-  url: "http://211.103.136.242:8064"
-  case_file: "testdata.xlsx"
+#  url: "http://211.103.136.242:8064"
+  url: "http://172.16.90.179:28082"
+#  url: "http://172.16.90.164:9193"
+  case_file: "testdata.xls"
+  result_file: "testdata_res.xls"
   case_sheet: "美多商城接口测试"
 
 

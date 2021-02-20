@@ -56,6 +56,7 @@ class CRequest:
         #2. 重复的内容，复制进来
         #获取结果内容
         code = r.status_code
+        # cookies = r.cookies
         try:
             body = r.json()
         except Exception as e:
@@ -64,6 +65,7 @@ class CRequest:
         res = dict()
         res["code"] = code
         res["body"] = body
+        # res["cookies"] = cookies
         #字典返回
         return res
 

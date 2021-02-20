@@ -1,0 +1,55 @@
+2020-07-15 00:22:40,538 Requests DEBUG 发送post请求 
+2020-07-15 00:23:02,465 Requests DEBUG 发送post请求 
+2020-07-15 00:23:11,850 Requests DEBUG 发送post请求 
+2020-07-15 00:23:12,069 Requests DEBUG 发送post请求 
+2020-07-15 00:23:13,302 Requests DEBUG 发送post请求 
+2020-07-15 00:23:13,889 Requests DEBUG 发送get请求 
+2020-07-15 00:23:14,065 Requests DEBUG 发送post请求 
+2020-07-15 00:23:14,682 Requests DEBUG 发送get请求 
+2020-07-15 00:23:14,834 AssertUtil ERROR body error,body is "{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com', 'email_active': True}",expected_body is id': 1, 'username': 'python', 'mobile': '17701397029', 
+'email': '952673638@qq.com' 
+2020-07-15 00:23:14,978 Requests DEBUG 发送get请求 
+2020-07-15 00:23:15,290 Requests DEBUG 发送post请求 
+2020-07-15 00:23:16,594 Requests DEBUG 发送post请求 
+2020-07-15 00:23:17,307 Requests DEBUG 发送post请求 
+2020-07-15 00:23:18,318 Requests DEBUG 发送post请求 
+2020-07-15 00:24:20,434 Requests DEBUG 发送post请求 
+2020-07-15 00:24:21,417 Requests DEBUG 发送post请求 
+2020-07-15 00:24:21,595 Requests DEBUG 发送post请求 
+2020-07-15 00:24:21,771 Requests DEBUG 发送post请求 
+2020-07-15 00:24:22,851 Requests DEBUG 发送post请求 
+2020-07-15 00:24:23,553 Requests DEBUG 发送get请求 
+2020-07-15 00:24:23,746 Requests DEBUG 发送post请求 
+2020-07-15 00:24:24,976 Requests DEBUG 发送get请求 
+2020-07-15 00:24:25,192 AssertUtil ERROR body error,body is "{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com', 'email_active': True}",expected_body is id': 1, 'username': 'python', 'mobile': '17701397029', 
+'email': '952673638@qq.com' 
+2020-07-15 00:24:25,242 Requests DEBUG 发送get请求 
+2020-07-15 00:24:25,568 Requests DEBUG 发送post请求 
+2020-07-15 00:24:27,390 Requests DEBUG 发送post请求 
+2020-07-15 00:24:27,966 Requests DEBUG 发送post请求 
+2020-07-15 00:24:29,506 Requests DEBUG 发送post请求 
+2020-07-15 00:28:34,141 Requests DEBUG 发送post请求 
+2020-07-15 21:05:02,610 Requests DEBUG 发送post请求 
+2020-07-15 21:07:06,452 Requests DEBUG 发送post请求 
+2020-07-15 21:16:51,734 Requests DEBUG 发送post请求 
+2020-07-15 21:56:26,059 Requests DEBUG 发送post请求 
+2020-07-15 21:58:59,971 Requests DEBUG 发送post请求 
+2020-07-15 22:19:46,282 Requests DEBUG 发送post请求 
+2020-07-15 22:21:55,652 Requests DEBUG 发送post请求 
+2020-07-15 22:30:36,023 Requests DEBUG 发送post请求 
+2020-07-15 22:43:39,243 Requests DEBUG 发送post请求 
+2020-07-15 22:48:43,661 Requests DEBUG 发送post请求 
+2020-07-15 22:49:59,275 Requests DEBUG 发送post请求 
+2020-07-15 22:52:24,008 Requests DEBUG 发送post请求 
+2020-07-15 22:54:54,558 Requests DEBUG 发送post请求 
+2020-07-15 23:18:58,144 Requests DEBUG 发送post请求 
+2020-07-15 23:23:59,933 Requests DEBUG 发送post请求 
+2020-07-15 23:26:57,375 Requests DEBUG 发送post请求 
+2020-07-15 23:29:12,827 Requests DEBUG 发送post请求 
+2020-07-15 23:31:51,593 Requests DEBUG 发送post请求 
+2020-07-15 23:34:46,126 Requests DEBUG 发送post请求 
+2020-07-15 23:34:46,354 Requests DEBUG 发送post请求 
+2020-07-15 23:34:47,823 Requests DEBUG 发送post请求 
+2020-07-15 23:36:55,250 Requests DEBUG 发送post请求 
+2020-07-15 23:36:55,516 Requests DEBUG 发送post请求 
+2020-07-15 23:36:56,866 Requests DEBUG 发送post请求 

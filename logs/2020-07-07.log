@@ -1,0 +1,49 @@
+2020-07-07 21:28:45,242 Requests DEBUG 发送post请求 
+2020-07-07 21:30:39,031 Requests DEBUG 发送post请求 
+2020-07-07 21:33:20,378 Requests DEBUG 发送post请求 
+2020-07-07 21:39:31,668 Requests DEBUG 发送post请求 
+2020-07-07 21:42:42,761 Requests DEBUG 发送post请求 
+2020-07-07 21:45:25,807 Requests DEBUG 发送post请求 
+2020-07-07 21:46:58,979 Requests DEBUG 发送post请求 
+2020-07-07 21:48:01,448 Requests DEBUG 发送post请求 
+2020-07-07 21:50:10,714 Requests DEBUG 发送post请求 
+2020-07-07 22:19:29,854 Requests DEBUG 发送post请求 
+2020-07-07 22:19:30,854 Requests DEBUG 发送post请求 
+2020-07-07 23:18:02,247 Requests DEBUG 发送post请求 
+2020-07-07 23:18:03,544 Requests DEBUG 发送post请求 
+2020-07-07 23:18:03,872 Requests DEBUG 发送post请求 
+2020-07-07 23:21:08,653 Requests DEBUG 发送post请求 
+2020-07-07 23:21:10,216 Requests DEBUG 发送get请求 
+2020-07-07 23:21:10,278 Requests DEBUG 发送get请求 
+2020-07-07 23:21:55,544 Requests DEBUG 发送post请求 
+2020-07-07 23:21:56,888 Requests DEBUG 发送get请求 
+2020-07-07 23:22:42,107 Requests DEBUG 发送post请求 
+2020-07-07 23:22:43,731 Requests DEBUG 发送get请求 
+2020-07-07 23:29:19,997 Requests DEBUG 发送post请求 
+2020-07-07 23:29:21,263 Requests DEBUG 发送get请求 
+2020-07-07 23:32:33,232 Requests DEBUG 发送post请求 
+2020-07-07 23:32:34,919 Requests DEBUG 发送get请求 
+2020-07-07 23:35:31,200 Requests DEBUG 发送post请求 
+2020-07-07 23:35:32,747 Requests DEBUG 发送get请求 
+2020-07-07 23:40:30,739 Requests DEBUG 发送post请求 
+2020-07-07 23:40:32,364 Requests DEBUG 发送get请求 
+2020-07-07 23:40:32,739 AssertUtil ERROR code error,code is 200,expected_code is 20 
+2020-07-07 23:41:40,614 Requests DEBUG 发送post请求 
+2020-07-07 23:41:42,302 Requests DEBUG 发送get请求 
+2020-07-07 23:45:34,552 Requests DEBUG 发送post请求 
+2020-07-07 23:45:35,505 Requests DEBUG 发送get请求 
+2020-07-07 23:45:35,958 C:\Users\Administrator\PycharmProjects\InterAutoTest\utils\LogUtil.py DEBUG 数据库查询结果：{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'} 
+2020-07-07 23:48:42,474 Requests DEBUG 发送post请求 
+2020-07-07 23:48:43,989 Requests DEBUG 发送get请求 
+2020-07-07 23:48:44,552 C:\Users\Administrator\PycharmProjects\InterAutoTest\utils\LogUtil.py DEBUG 数据库查询结果：{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'} 
+2020-07-07 23:52:07,755 Requests DEBUG 发送post请求 
+2020-07-07 23:52:09,193 Requests DEBUG 发送get请求 
+2020-07-07 23:52:09,755 C:\Users\Administrator\PycharmProjects\InterAutoTest\utils\LogUtil.py DEBUG 数据库查询结果：{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'} 
+2020-07-07 23:55:19,661 Requests DEBUG 发送post请求 
+2020-07-07 23:55:21,318 Requests DEBUG 发送get请求 
+2020-07-07 23:55:21,989 C:\Users\Administrator\PycharmProjects\InterAutoTest\utils\LogUtil.py DEBUG 数据库查询结果：{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'} 
+2020-07-07 23:56:27,314 Requests DEBUG 发送post请求 
+2020-07-07 23:56:28,329 Requests DEBUG 发送get请求 
+2020-07-07 23:57:15,767 Requests DEBUG 发送post请求 
+2020-07-07 23:57:16,610 Requests DEBUG 发送get请求 
+2020-07-07 23:57:17,064 C:\Users\Administrator\PycharmProjects\InterAutoTest\utils\LogUtil.py DEBUG 数据库查询结果：{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'} 
